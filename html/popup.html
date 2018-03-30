@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>Заблокировать майнеры</title>
+        
+        <link rel="stylesheet" type="text/css" href="/css/popup.css" />
+    </head>
+    <body>
+        <a class="header" >
+            <div class="logo">
+                <img src="/img/128_blocked.png" />
+            </div>
+            <div class="title">
+                <h1>Заблокировать майнеры</h1>
+            </div>
+        </a>
+        <div class="content">
+            <p class="detected box">Крипто майнер обнаружен на этой странице</p>
+            <div class="whitelisting">
+                <select class="dropdown">
+                    <option value="1">Не блокировать 1 минуту</option>
+                    <option value="30">Не блокировать 30 минут</option>
+                    <option value="60">Не блокировать 1 час</option>
+                    <option value="0">Совсем не блокировать</option>
+                </select>
+                <button class="btn whitelist">Не блокировать</button>
+                <p class="whitelisted box"></p>
+                <button class="btn unwhitelist">Блокировать</button>
+            </div>
+            <button class="btn toggle"></button>
+        </div>
+
+        <script src="../core/jquery.min.js"></script>
+        <script src="../core/popup.js"></script>
+    </body>
+</html>

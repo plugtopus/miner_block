@@ -1,0 +1,83 @@
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    background-color: #a9a9a9;
+    overflow: auto;
+    width: 180px;
+    margin: 5px 5px
+}
+
+.header {
+    margin: 5px;
+    color: white;
+    text-decoration: none
+}
+
+.logo {
+    float: left;
+    margin-right: 10px
+}
+
+.logo > img {
+    height: 75px
+}
+
+.title > h1 {
+    font-size: 20px;
+    margin: 10px
+}
+
+.content {
+    margin-top: 10px
+}
+
+.whitelisting {
+    display: none
+}
+
+.detected {
+    display: none
+}
+
+.box {
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 4px;
+    text-align: center;
+    background-color: #eee;
+    color: #343434
+}
+
+.btn {
+    width: 100%;
+    padding: 8px 0;
+    margin: 3px 0;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: 0;
+    border: double;
+    border-radius: 4px
+}
+
+.dropdown {
+    width: 100%;
+    padding: 3px 0;
+    margin: 4px 0;
+    border-radius: 4px
+}
+
+.toggle {
+    background-color: #ff0000 !important
+}
+
+.disabled {
+    background-color: #00db43 !important
+}
+
+.whitelist {
+    background-color: #f5dd2f !important
+}
+
+.unwhitelist {
+    background-color: #00db43 !important
+}
